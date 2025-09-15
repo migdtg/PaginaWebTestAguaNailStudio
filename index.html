@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Aqua Nail Studio — Uñas que cuentan tu historia</title>
+  <meta name="description" content="Salón de uñas: manicura, semipermanente, gel, extensiones y nail art. Reserva y descubre tips de cuidado.">
+  <meta name="theme-color" content="#dff9ff">
+
+  <!-- Open Graph básico -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aqua Nail Studio — Uñas que cuentan tu historia">
+  <meta property="og:description" content="Manicura, semipermanente, gel, extensiones y nail art. Reserva tu cita.">
+  <meta property="og:url" content="#">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=DM+Sans:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  
+
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- Header / navegación -->
+  <header class="site-header fixed-top" role="banner">
+    <div class="container d-flex align-items-center justify-content-between py-2">
+    <a href="#" class="brand-logo" aria-label="Ir al inicio">
+  <span class="brand-badge">
+    <img src="assets/img/logo-aqua2.jpeg" class="brand-logo__img" alt="">
+  </span>
+  <span>Aqua Nail Studio</span>
+</a>
+
+
+      <!-- Menú móvil  -->
+      <details class="nav-mobile d-lg-none" aria-label="Menú principal">
+        <summary aria-label="Abrir menú">
+          <i class="bi bi-list" aria-hidden="true"></i> Menú
+        </summary>
+        <ul class="mt-2">
+          <li><a href="#inicio" class="d-block">Inicio</a></li>
+          <li><a href="#servicios" class="d-block">Servicios</a></li>
+          <li><a href="#tips" class="d-block">Tips</a></li>
+          <li><a href="#contacto" class="d-block">Contacto</a></li>
+          <li class="mt-2"><a class="btn btn-brand w-100" href="#contacto">Reservar</a></li>
+        </ul>
+      </details>
+
+      <!-- Menú desktop -->
+      <nav class="nav-desktop d-none d-lg-flex" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#tips">Tips</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn-brand ms-2" href="#contacto">Reservar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Hero -->
+    <section id="inicio" class="hero py-5">
+      <div class="container py-4">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-lg-6">
+            <h1 class="display-5 mb-3">Your life can't be perfect but your nails can be</h1>
+            <p class="lead mb-4">Manicura clásica, semipermanente, gel y nail art con máxima higiene y detalle. ¡Estrena look!</p>
+            <div class="d-flex gap-2">
+              <a href="#servicios" class="btn btn-brand"><i class="bi bi-stars" aria-hidden="true"></i> Ver servicios</a>
+              <a href="#tips" class="btn btn-outline-secondary"><i class="bi bi-journal-text" aria-hidden="true"></i> Tips de cuidado</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              src="assets/img/imagenTopHeader1.png"
+              srcset="assets/img/imagenTopHeader1.png 600w,
+                      assets/img/imagenTopHeader1.png 900w,
+                      assets/img/imagenTopHeader1.png 1200w"
+              sizes="(max-width: 576px) 90vw, (max-width: 2000px) 80vw, 600px"
+              class="img-fluid rounded-4 shadow-sm"
+              alt="Primer plano de manicurista aplicando esmalte en uñas de clienta"
+              loading="eager" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-5">
+      <div class="container">
+        <header class="mb-4">
+          <h2 class="h1 mb-2">Servicios</h2>
+          <p class="text-muted mb-0">Transparencia en precios. Elige tu estilo y reserva.</p>
+        </header>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <article class="card h-100">
+              <img class="card-img-top" src="assets/img/manicuraClasica.png" alt="Manicura clásica con esmalte neutro" loading="lazy">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start">
+                  <h3 class="h5 card-title mb-2"><i class="bi bi-brush me-1" aria-hidden="true"></i> Manicura Clásica</h3>
+                  <span class="badge-price">€25</span>
+                </div>
+                <p class="card-text text-muted">Limpieza, limado, cutículas y esmaltado tradicional.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="#contacto" class="btn btn-sm btn-outline-primary">Reservar</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <img class="card-img-top" src="assets/img/semipermanenteOGel.png" alt="Uñas con esmalte semipermanente rosado" loading="lazy">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start">
+                  <h3 class="h5 card-title mb-2"><i class="bi bi-gem me-1" aria-hidden="true"></i> Semipermanente</h3>
+                  <span class="badge-price">€30</span>
+                </div>
+                <p class="card-text text-muted">Color duradero con acabado brillante por semanas.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="#contacto" class="btn btn-sm btn-outline-primary">Reservar</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <img class="card-img-top" src="assets/img/extenciones.png" alt="Extensiones en gel con nail art minimalista" loading="lazy">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start">
+                  <h3 class="h5 card-title mb-2"><i class="bi bi-stars me-1" aria-hidden="true"></i> Gel / Extensiones</h3>
+                  <span class="badge-price">€45</span>
+                </div>
+                <p class="card-text text-muted">Longitud y forma a medida con refuerzo resistente.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="#contacto" class="btn btn-sm btn-outline-primary">Reservar</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Galería -->
+<section id="galeria" class="py-5">
+  <div class="container">
+    <header class="mb-4">
+      <h2 class="h1 mb-2">Galería</h2>
+      <p class="text-muted mb-0">Algunos de nuestros trabajos recientes.</p>
+    </header>
+
+    <!-- UNA sola row; NO anidar más .row adentro -->
+    <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-4">
+
+      <div class="col">
+        <figure class="figure m-0 h-100">
+          <img src="assets/img/francesclasico.png"
+               class="figure-img img-fluid rounded-3 thumb"
+               alt="Manicura francesa clásica en tonos nude">
+          <figcaption class="figure-caption text-muted small">Francesa clásica</figcaption>
+        </figure>
+      </div>
+
+      <div class="col">
+        <figure class="figure m-0 h-100">
+          <img src="assets/img/galeria-2.jpeg"
+               class="figure-img img-fluid rounded-3 thumb"
+               alt="Uñas semipermanentes color pastel">
+          <figcaption class="figure-caption text-muted small">Semipermanente pastel</figcaption>
+        </figure>
+      </div>
+
+      <div class="col">
+        <figure class="figure m-0 h-100">
+          <img src="assets/img/galeria-3.jpeg"
+               class="figure-img img-fluid rounded-3 thumb"
+               alt="Extensiones en gel con forma almendra">
+          <figcaption class="figure-caption text-muted small">Gel almendra</figcaption>
+        </figure>
+      </div>
+
+      <div class="col">
+        <figure class="figure m-0 h-100">
+          <img src="assets/img/galeria-4.jpeg"
+               class="figure-img img-fluid rounded-3 thumb"
+               alt="Nail art minimalista con líneas doradas">
+          <figcaption class="figure-caption text-muted small">Nail art minimal</figcaption>
+        </figure>
+      </div>
+
+      <div class="col">
+        <figure class="figure m-0 h-100">
+          <img src="assets/img/galeria-5.jpeg"
+               class="figure-img img-fluid rounded-3 thumb"
+               alt="Manicura verde con detalle floral">
+          <figcaption class="figure-caption text-muted small">Detalle floral</figcaption>
+        </figure>
+      </div>
+
+      <div class="col">
+        <figure class="figure m-0 h-100">
+          <img src="assets/img/galeria-6.jpeg"
+               class="figure-img img-fluid rounded-3 thumb"
+               alt="Manicura roja con efectos cromados">
+          <figcaption class="figure-caption text-muted small">Chrome rojo</figcaption>
+        </figure>
+      </div>
+
+      
+      <div class="col">
+        <figure class="figure m-0 h-100">
+          <img src="assets/img/galeria-1.jpeg"
+               class="figure-img img-fluid rounded-3 thumb"
+               alt="Manicura verde con detalle floral">
+          <figcaption class="figure-caption text-muted small">Detalle floral</figcaption>
+        </figure>
+      </div>
+
+      
+      <div class="col">
+        <figure class="figure m-0 h-100">
+          <img src="assets/img/imagen7.png"
+               class="figure-img img-fluid rounded-3 thumb"
+               alt="Uñas con diseño de corazones almendrados">
+          <figcaption class="figure-caption text-muted small">corazones almendrados</figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section id="video" class="py-5">
+  <div class="container">
+    <h2 class="h1 mb-3">Video: higiene y preparación</h2>
+    <div class="ratio ratio-16x9">
+      <iframe
+        src="https://www.youtube.com/embed/5CbNB7IqOg0"
+        title="Procedimiento de higiene y preparación de uñas en Aqua Nail Studio"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <p class="text-muted small mt-2">
+      Si no puedes reproducir el video, 
+      <a href="https://www.youtube.com/watch?v=5CbNB7IqOg0" target="_blank" rel="noopener">míralo en YouTube</a>.
+    </p>
+  </div>
+</section>
+
+
+
+    <!-- Tips -->
+    <section id="tips" class="py-5">
+      <div class="container">
+        <header class="mb-4">
+          <h2 class="h1 mb-2">Tips &amp; Tendencias</h2>
+          <p class="text-muted mb-0">Consejos rápidos para cuidar tus uñas.</p>
+        </header>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <article class="card h-100">
+              <img class="card-img-top" src="assets/img/Hidratacioncuticula.jpeg" alt="Aceite de cutículas y esmaltado pastel" loading="lazy">
+              <div class="card-body">
+                <h3 class="h5 card-title">Hidratación de cutículas</h3>
+                <p class="card-text text-muted">Cómo y cuándo aplicar aceite para evitar resequedad y padrastros.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="#" class="btn btn-sm btn-outline-secondary">Leer</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <img class="card-img-top" src="assets/img/semipermanenteTips.png" alt="Muestrario de colores de esmalte" loading="lazy">
+              <div class="card-body">
+                <h3 class="h5 card-title">¿Gel o semipermanente?</h3>
+                <p class="card-text text-muted">Diferencias, duración y cuál elegir según tu rutina.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="#" class="btn btn-sm btn-outline-secondary">Leer</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <img class="card-img-top" src="assets/img/tendencias2025.png" alt="Manicura francesa moderna en tonos nude" loading="lazy">
+              <div class="card-body">
+                <h3 class="h5 card-title">Tendencias 2025</h3>
+                <p class="card-text text-muted">Francés invertido, chrome y diseños minimalistas en auge.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="#" class="btn btn-sm btn-outline-secondary">Leer</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <h2 class="h1 mb-3">Contacto &amp; Reservas</h2>
+        <p class="text-muted">Para consultas y reservas, contáctanos a través de: <a href="mailto:reservas@aquanails.test">reservas@aquanails.test</a> — <a href="tel:+3561234567">+356 123 456 7</a></p>
+        <p class="mb-0"><i class="bi bi-geo-alt" aria-hidden="true"></i> 64 debono, san gwann, Malta</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4">
+    <div class="container small d-flex flex-column flex-md-row justify-content-between gap-2">
+      <div><span class="fw-semibold">Aqua Nail Studio</span> · © 2025</div>
+      <div class="d-flex gap-3">
+        <a href="#" class="link-secondary">Privacidad</a>
+        <a href="#" class="link-secondary">Términos</a>
+        <a href="#" class="link-secondary">Accesibilidad</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Sin scripts -->
+</body>
+</html>
+
