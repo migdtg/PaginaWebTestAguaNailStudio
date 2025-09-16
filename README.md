@@ -118,7 +118,14 @@ assets/
 - **v0.4** – Tips + ajustes de tipografías/colores.  
 - **v0.5** – Deploy en GitHub Pages, limpieza de rutas.
 
----
+---## 📌 Notas de avance
+
+- Quité `fixed-top` del header para que no tape contenido en móvil.
+- Reduje el tamaño del logo en móvil (28px) y desktop (36px).
+- Corregí rutas de imágenes (`.jpeg` vs `.jpg`) para que carguen en GitHub Pages.
+- Deploy inicial en GitHub Pages funcionando:  
+  https://migdtg.github.io/PaginaWebTestAguaNailStudio/
+
 
 ## 🧑‍💻 Créditos
 - **Bootstrap** y **Bootstrap Icons** (CDN).
