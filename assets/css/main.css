@@ -30,7 +30,7 @@ h1,h2,h3,.display-5,.display-6{
 
 .brand-logo{ display:flex; align-items:center; gap:.5rem; font-weight:600; text-decoration:none; color:inherit; font-family: "Great Vibes", cursive; font-size: 2.0rem; }
 .brand-logo__img{ height: 300px; width:auto; display:block; object-fit:contain; }
-@media (min-width: 992px){ .brand-logo__img{ height:100px; } }
+@media (min-width: 200px){ .brand-logo__img{ height:100px; } }
 
 
 
@@ -103,3 +103,4 @@ footer{ background:var(--surface); border-top:1px solid #e5e7eb; }
 }
 /* Thumbs de galería cuadradas */
 .thumb{ width:100%; aspect-ratio:1/1; object-fit:cover; }
+
