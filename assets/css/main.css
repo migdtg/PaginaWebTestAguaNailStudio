@@ -67,10 +67,21 @@ h1,h2,h3,.display-5,.display-6{
 
 /* Hero */
 .hero{
-  background: linear-gradient(180deg,#ffffff 0%, #ecfeff 100%);
+  background: linear-gradient(180deg,var(--surface)  0%, #ffffff 700%);
   border-bottom:1px solid #e2e8f0;
 }
-.hero .lead{ color:var(--muted); }
+.hero .lead{ color:var(--muted);
+max-width: 60ch; } /* mejora la legibilidad */
+
+.btn-brand{
+  background: linear-gradient(90deg, var(--brand), var(--brand-600));
+  color: #fff; border:0; border-radius: 75rem;
+  box-shadow: var(--shadow);
+}
+.btn-brand:hover, .btn-brand:focus{
+  filter: brightness(0.95);
+  color: #fff;
+}
 
 /* Cards */
 .card{
@@ -106,6 +117,7 @@ footer{ background:var(--surface); border-top:1px solid #e5e7eb; }
 }
 /* Thumbs de galería cuadradas */
 .thumb{ width:100%; aspect-ratio:1/1; object-fit:cover; }
+
 
 
 
