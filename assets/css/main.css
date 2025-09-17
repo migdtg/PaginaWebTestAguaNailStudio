@@ -1,35 +1,38 @@
 :root{
-  /* Paleta colores "aqua" */
-  --brand:#06b6d4;      /* cyan */
-  --brand-600:#0891b2;  /* cyan más oscuro */
-  --text:#0f172a;
-  --muted:#4a6385;
-  --surface:#2180df;
+  --brand:#D946EF;        /* magenta suave */
+  --brand-600:#A21CAF;    /* magenta oscuro */
+  --accent:#93C5FD;       /* periwinkle claro */
+  --surface:#FFF1F7;      /* rosa niebla */
+  --text:#0F172A;
+  --muted:#6B7280;
   --radius:1rem;
   --shadow:0 10px 20px rgba(2,6,23,.08);
   --focus:2px dashed var(--brand);
 }
 
+
+
+
 html, body { height: 100%; }
 
 body{
-  font-family:"Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family:"DM Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color:var(--text);
-  background:#fff;
+  background:#ffffff;
   padding-top:0px;  
   scroll-behavior:smooth;
 }
 
 
 h1,h2,h3,.display-5,.display-6{
-  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  font-family:"Marcellus","Fraunces","Playfair Display", serif;
 }
 
 :focus-visible{ outline:var(--focus); outline-offset:3px; }
 .brand-logo { display:flex; align-items:center; gap:.5rem; font-weight:600; color:inherit; text-decoration:none; }
 
 .brand-logo{ display:flex; align-items:center; gap:.5rem; font-weight:600; text-decoration:none; color:inherit; font-family: "Great Vibes", cursive; font-size: 2.0rem; }
-.brand-logo__img{ height: 30px; width:auto; display:block; object-fit:contain; }
+.brand-logo__img{ height: 44px; width:auto; display:block; object-fit:contain; }
 .brand-logo span{ font-size:1rem; font-weight:600; }
 @media (min-width: 992px){ .brand-logo__img{ height:36px; }
 .brand-logo span {font-size: 1.1 rem;}
@@ -38,11 +41,11 @@ h1,h2,h3,.display-5,.display-6{
 
 
 /* Header / navegación */
-.site-header{ background:#d6fbff; border-bottom:1px solid #e5e7eb; }
+.site-header{ background:#ffffff; border-bottom:1px solid #f6f7f9; }
 .brand-logo{ display:flex; align-items:center; gap:.5rem; font-weight:600; color:inherit; text-decoration:none; }
 
 .nav-desktop a{
-  color:#152e2f; text-decoration:none; padding:.5rem .75rem; border-radius:.5rem;
+  color:#181718; text-decoration:none; padding:.5rem .75rem; border-radius:.5rem;
 }
 .nav-desktop a:hover, .nav-desktop a:focus{ background:#176dc3; }
 
@@ -81,6 +84,10 @@ max-width: 60ch; } /* mejora la legibilidad */
 .btn-brand:hover, .btn-brand:focus{
   filter: brightness(0.95);
   color: #fff;
+}
+#inicio h1{
+  font-size:clamp(28px,5.5vw,44px);
+  letter-spacing:-.02em; line-height:1.15;
 }
 
 /* Cards */
