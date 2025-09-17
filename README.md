@@ -32,15 +32,15 @@
 ## 🧱 Estructura
 
 index.html
-assets/
-├─ css/
+assets/    
+├─ css/  
 │ └─ main.css
-├─ img/
-│ └─ (...imágenes del sitio)
-├─ audio/
-│ └─ tips.mp3 (si aplica)
-└─ video/
-└─ (reservado)
+├─ img/  
+│ └─ (...imágenes del sitio)  
+├─ audio/  
+│ └─ tips.mp3 (si aplica)  
+└─ video/  
+└─ (reservado)  
 
 ---
 
