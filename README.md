@@ -36,9 +36,9 @@ assets/
 ├─ css/  
 │ └─ main.css
 ├─ img/  
-│ └─ (...imágenes del sitio)  
+│ └─ (...imágenes del sitio, logo, galería, etc)  
 ├─ audio/  
-│ └─ tips.mp3 (si aplica)  
+│ └─ tips.mp3 (pendiente o futuro)  
 └─ video/  
 └─ (reservado)  
 
@@ -58,30 +58,20 @@ assets/
 
 ---
 
-## 🧩 Decisiones técnicas (en simple)
-- **Sin JavaScript:** el menú móvil usa `<details>` → accesible y suficiente para este MVP.
+## 🧩 Decisiones técnicas 
+
 - **Imágenes de cards**: normalizadas con `object-fit: cover` + `aspect-ratio` para que queden uniformes.
 - **Tipografía:** serif para títulos, sans para lectura (Google Fonts). Script solo para acento del brand.
 - **Tokens CSS:** colores/espaciados en `:root` para cambiar paleta fácil.
 - **Performance básico:** `loading="lazy"` en imágenes de cards; `preconnect` a Google Fonts; `display=swap`.
 
----
-
-## 🖼️ Evidencias (capturas)
-> Agrega capturas en `/assets/img/` y enlázalas aquí.
-
-- **Home / Hero (desktop):**  
-  ![Hero desktop](assets/img/captura-hero-desktop.png)
-- **Servicios (desktop y móvil):**  
-  ![Servicios desktop](assets/img/captura-servicios.png)
-  ![Servicios móvil](assets/img/captura-servicios-movil.png)
-- **Galería + Video + Audio + Tips:**  
-  ![Galería](assets/img/captura-galeria.png)
-  ![Video](assets/img/captura-video.png)
-  ![Audio](assets/img/captura-audio.png)
-  ![Tips](assets/img/captura-tips.png)
-- **Contacto:**  
-  ![Contacto](assets/img/captura-contacto.png)
+## 🚀 Tecnologías usadas
+- HTML5 semántico
+- CSS3 con variables
+- Bootstrap 5.3
+- Google Fonts
+- Bootstrap Icons
+- GitHub Pages
 
 ---
 
@@ -92,7 +82,9 @@ assets/
 - [x] Accesibilidad básica (alt, foco, contraste)
 - [x] SEO on-page y Open Graph
 - [x] Deploy en GitHub Pages
-
+- [x] Formulario de contacto accesible (validación de Bootstrap).
+- [x] Optimizar imágenes (WebP + `srcset` real en el hero).
+- [x] Mejorar logo (PNG transparente o SVG).
 ---
 
 ## 🧪 Cosas que aprendí (log personal)
@@ -104,11 +96,12 @@ assets/
 ---
 
 ## 📌 Roadmap (próximos pasos)
-- [ ] Formulario de contacto accesible (validación de Bootstrap).
-- [ ] Optimizar imágenes (WebP + `srcset` real en el hero).
-- [ ] Mejorar logo (PNG transparente o SVG).
-- [ ] Página “Nosotros” y más contenido educativo.
 
+- [ ] Página “Nosotros” y más contenido educativo. 
+- [ ] Añadir transcripción de audio (tips de cuidado)
+- [ ] Revisar contraste de colores para accesibilidad (WCAG AA).
+- [ ] Mejorar animaciones de hover en cards.
+- [ ] Documentar cambios finales en el informe escrito.
 ---
 
 ## 🧾 Notas de versión (changelog breve)
@@ -118,13 +111,15 @@ assets/
 - **v0.4** – Tips + ajustes de tipografías/colores.  
 - **v0.5** – Deploy en GitHub Pages, limpieza de rutas.
 
----## 📌 Notas de avance
-
-- Quité `fixed-top` del header para que no tape contenido en móvil.
-- Reduje el tamaño del logo en móvil (28px) y desktop (36px).
-- Corregí rutas de imágenes (`.jpeg` vs `.jpg`) para que carguen en GitHub Pages.
-- Deploy inicial en GitHub Pages funcionando:  
-  https://migdtg.github.io/PaginaWebTestAguaNailStudio/
+## 📌 Notas de avance
+- Quitado `fixed-top` en header para que no tape contenido en móvil.
+- Reducción y ajuste responsive del logo (`60px` en móvil, `100px` en desktop).
+- Actualización de tipografías (más legibles y estéticas).
+- Sustitución de imágenes de prueba por propias en `/assets/img`.
+- Uniformidad en imágenes de galería con `object-fit: cover`.
+- Creación de **botones “Reservar”** unificados con degradado.
+- Sección de contacto con formulario básico .
+- Deploy en GitHub Pages funcionando ✅.
 
 
 ## 🧑‍💻 Créditos
