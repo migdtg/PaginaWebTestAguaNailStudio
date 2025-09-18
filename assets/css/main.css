@@ -1,8 +1,10 @@
 :root{
-  --brand:#D946EF;        /* magenta suave */
+  --brand:#06b6d4;      /* Aqua principal */
   --brand-600:#A21CAF;    /* magenta oscuro */
-  --accent:#93C5FD;       /* periwinkle claro */
+  --accent:#ff6b6b;     /* Coral vibrante */
   --surface:#FFF1F7;      /* rosa niebla */
+  --neutral-dark: #0f172a; /* Texto oscuro */
+  --neutral-light: #f9fafb; /* Fondo claro */
   --text:#0F172A;
   --muted:#6B7280;
   --radius:1rem;
@@ -27,17 +29,28 @@ body{
 h1,h2,h3,.display-5,.display-6{
   font-family:"Marcellus","Fraunces","Playfair Display", serif;
 }
-
+ Logo */
 :focus-visible{ outline:var(--focus); outline-offset:3px; }
-.brand-logo { display:flex; align-items:center; gap:.5rem; font-weight:600; color:inherit; text-decoration:none; }
 
-.brand-logo{ display:flex; align-items:center; gap:.5rem; font-weight:600; text-decoration:none; color:inherit; font-family: "Great Vibes", cursive; font-size: 2.0rem; }
-.brand-logo__img{ height: 44px; width:auto; display:block; object-fit:contain; }
-.brand-logo span{ font-size:1rem; font-weight:600; }
-@media (min-width: 992px){ .brand-logo__img{ height:44px; }
-.brand-logo span {font-size: 1.1 rem;}
- }
+.brand-logo{
+  display:flex; align-items:center; gap:.5rem;
+  font-weight:600; text-decoration:none; color:inherit;
+}
 
+.brand-logo__img{
+  height:60px;               /* móvil */
+  width:auto; object-fit:contain;
+}
+
+.brand-logo span{
+  font-size:1rem; font-weight:600; line-height:1;
+}
+
+/* Desktop */
+@media (min-width:992px){
+  .brand-logo__img{ height:100px; }
+  .brand-logo span{ font-size:1.1rem; }
+}
 
 
 /* Header / navegación */
