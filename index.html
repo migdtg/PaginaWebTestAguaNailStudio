@@ -260,7 +260,7 @@
       </iframe>
     </div>
     <p class="text-muted small mt-2">
-      Si no puedes reproducir el video, 
+      Si no puedes reproducir el video, video de ejemplo  
       <a href="https://www.youtube.com/watch?v=5CbNB7IqOg0" target="_blank" rel="noopener">míralo en YouTube</a>.
     </p>
   </div>
@@ -323,10 +323,55 @@
     <section id="contacto" class="py-5">
       <div class="container">
         <h2 class="h1 mb-3">Contacto &amp; Reservas</h2>
-        <p class="text-muted">Para consultas y reservas, contáctanos a través de: <a href="mailto:reservas@aquanails.test">reservas@aquanails.test</a> — <a href="tel:+3561234567">+356 123 456 7</a></p>
-        <p class="mb-0"><i class="bi bi-geo-alt" aria-hidden="true"></i> 64 debono, san gwann, Malta</p>
+        <p class="text-muted">Para consultas y reservas, completa el formulario o visítanos en San Gwann, Malta.</p>
+        
+      <header class="mb-4 text-center">
+      <h2 class="h1 mb-2">Contacto</h2>
+       <p class="text-muted mb-0">Déjanos tu consulta y te respondemos pronto.</p>
+    </header>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-7">
+        <div class="card shadow-sm">
+          <div class="card-body p-4">
+
+            <form action="mailto:reservas@aquanails.test" method="post" enctype="text/plain">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="Nombre" placeholder="Tu nombre" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" name="Correo" placeholder="tu@correo.com" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="Mensaje" rows="4" placeholder="Cuéntanos en qué podemos ayudarte" required></textarea>
+              </div>
+
+              <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-reservar">
+                  <i class="bi bi-send me-1" aria-hidden="true"></i> Enviar
+                </button>
+                <button type="reset" class="btn btn-ghost">Limpiar</button>
+              </div>
+
+              <p class="small text-muted mt-2 mb-0">
+                *Este formulario usa <code>mailto:</code>; abrirá tu cliente de correo. Para envío real se necesita backend.
+              </p>
+            </form>
+
+            <p class="mb-0"><i class="bi bi-geo-alt" aria-hidden="true"></i> 64 debono, san gwann, Malta</p>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+
+  </div>
+  </section>
+  
   </main>
 
   <footer class="py-4">
