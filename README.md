@@ -97,11 +97,11 @@ assets/
 
 ## 📌 Roadmap (próximos pasos)
 
--[ ] Página “Nosotros” y más contenido educativo. 
--[ ] Añadir transcripción de audio (tips de cuidado).
--[ ]Revisar contraste de colores para accesibilidad (WCAG AA).
--[ ]Mejorar animaciones de hover en cards.
--[ ] Documentar cambios finales en el informe escrito.
+- [ ] Página “Nosotros” y más contenido educativo. 
+- [ ] Añadir transcripción de audio (tips de cuidado)
+- [ ] Revisar contraste de colores para accesibilidad (WCAG AA).
+- [ ] Mejorar animaciones de hover en cards.
+- [ ] Documentar cambios finales en el informe escrito.
 ---
 
 ## 🧾 Notas de versión (changelog breve)
